@@ -1,0 +1,8 @@
+applications:
+  - name: main-spring-app
+    memory: 768M
+    instances: 1
+    random-route: true
+    buildpacks:
+      - sap_java_buildpack
+    path: target/MainSpringApp-1.0.0.jar

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: main-spring-app
+
+greeting:
+  template: "Hello from Main via libA, %s!"
+  web-enabled: true
+
+server:
+  port: 8080
