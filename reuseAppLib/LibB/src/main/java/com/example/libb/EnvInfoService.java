@@ -14,6 +14,6 @@ public class EnvInfoService {
     String[] profiles = env.getActiveProfiles();
     String profile = (profiles == null || profiles.length == 0) ? "default" : String.join(",", profiles);
     String javaVersion = System.getProperty("java.version");
-    return new EnvInfo(appName, profile, javaVersion);
+    return new EnvInfo("and form LibB proving info as ="+appName, profile, javaVersion);
   }
 }
